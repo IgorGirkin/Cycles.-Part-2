@@ -26,10 +26,10 @@ public class Main {
         //Задание 3
          System.out.println("Задание 3");
          var y=12000000;
-         var birthRatePerThousand = 17;
-         var mortalityRatePerThousand = 8;
+         var born = 17;
+         var death = 8;
          for (int w=1; w<=10;w++) {
-         y=y+(y/1000*birthRatePerThousand)-(y/1000*mortalityRatePerThousand);
+         y+=y/1000*born-y/1000*death;
          System.out.println("Год "+w+ ", численность населения составляет "+y);
          }
     }
