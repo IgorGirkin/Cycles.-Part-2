@@ -2,12 +2,11 @@ public class Main {
     public static void main(String[] args) {
         //Задание 1
         System.out.println("Задание 1");
-        var deposit = 15000;
-        var total=0;
-        for (int month = 1;total < 12000000;month++) {
-            total+=total/100*7;
-            total+=deposit;
-            System.out.println("Месяц " + month + ", сумма накоплений равна " + total + " рублей");
+        var percent = 15000/100*7;
+        int mount=1;
+        for (int deposit = 15000;deposit <= 12000000;deposit+=percent) {
+            mount++;
+            System.out.println("Месяц " + mount + ", сумма накоплений равна " + deposit + " рублей");
         }
 
         //Задание 2
