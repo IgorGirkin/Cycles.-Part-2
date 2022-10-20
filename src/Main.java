@@ -25,12 +25,12 @@ public class Main {
         System.out.println();
         //Задание 3
          System.out.println("Задание 3");
-         var y=12000000;
+         var krasnodar=12000000;
          var born = 17;
          var death = 8;
          for (int w=1; w<=10;w++) {
-         y+=y/1000*born-y/1000*death;
-         System.out.println("Год "+w+ ", численность населения составляет "+y);
+         krasnodar+=krasnodar/1000*born-krasnodar/1000*death;
+         System.out.println("Год "+w+ ", численность населения составляет "+krasnodar);
          }
     }
 
