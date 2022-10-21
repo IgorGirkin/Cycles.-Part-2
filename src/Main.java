@@ -33,5 +33,4 @@ public class Main {
          System.out.println("Год "+w+ ", численность населения составляет "+krasnodar);
          }
     }
-
 }
